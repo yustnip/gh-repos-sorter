@@ -27,3 +27,5 @@ https://github.com/afollestad/material-dialogs (7947)
 https://github.com/reactotron/reactotron (4899)
 ...
 ```
+
+Example of the result you can see [here](https://github.com/yustnip/gh-repos-sorter/tree/master/example).
