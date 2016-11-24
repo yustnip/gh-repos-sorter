@@ -60,7 +60,7 @@ function _createFile() {
     
     const sortedArr = composedData.sort( compare )
     const reversedArr = sortedArr.reverse()
-    let content = ""
+    let content = ''
     
     sortedArr.forEach( ( item ) => {
         let line = item.html_url + ' (' + item.stargazers_count + ')\n'
