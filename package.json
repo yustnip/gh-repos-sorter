@@ -1,0 +1,22 @@
+{
+  "name": "gh-repos-sorter",
+  "version": "0.0.1",
+  "description": "``` node sorter LIST_FILE CLIENT_ID_OPTIONAL CLIENT_SECRET_OPTIONAL ```",
+  "main": "sorter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yustnip/gh-repos-sorter.git"
+  },
+  "author": "Nikita Yustovskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yustnip/gh-repos-sorter/issues"
+  },
+  "homepage": "https://github.com/yustnip/gh-repos-sorter#readme",
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  }
+}
