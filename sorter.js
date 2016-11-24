@@ -76,7 +76,7 @@ function _createFile() {
     } )
 }
 
-function _composeData( ghUrl, isLast ) {
+function _composeData( ghUrl ) {
     fetch( ghUrl )
         .then( ( response ) => {
             return response.text()
