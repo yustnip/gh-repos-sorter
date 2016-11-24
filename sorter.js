@@ -67,7 +67,7 @@ function _createFile() {
         content += line
     } )
     
-    fs.writeFile( 'packages.txt', content, function( err ) {
+    fs.writeFile( 'repos.txt', content, function( err ) {
         if ( err ) {
             return console.log( err )
         } else {
