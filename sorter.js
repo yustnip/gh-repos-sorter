@@ -26,15 +26,15 @@ function _getPath( url ) {
 }
 
 function _getSourceContent() {
-    const directory = process.argv[ 2 ]
-    const content = fs.readFileSync( directory, 'utf8' )
+    const filePath = process.argv[ 2 ]
+    const content = fs.readFileSync( filePath, 'utf8' )
     return content
 }
 
 function _getArr() {
     const content = _getSourceContent()
-    const pattern = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig
-    const arr = content.match( pattern )
+    const urlPattern = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig
+    const arr = content.match( urlPattern )
     return arr
 }
 
