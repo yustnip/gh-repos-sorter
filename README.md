@@ -1,6 +1,6 @@
 # gh-repos-sorter
 
-Node.js command line tool for sorting a list of GitHub repositories by stars.
+Node.js command line tool for sorting a list of GitHub repositories by stars. Tested on the current LTS v6.9.1.
 
 ## Usage
 
